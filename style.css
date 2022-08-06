@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    font-family: 'Inconsolata', monospace;
+    height:97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #5C6784;
+}
+
+#container{
+    
+    border:0 solid black;
+    box-shadow: 2px 2px 10px black;
+    width:100%;
+    max-width:600px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 20px;
+    background-color: rgba(	76,	185,99,0.9);
+    text-align:left;
+    padding-bottom:20px;
+}
+
+#container > h1{
+    text-align:center;
+}
+
+.disappear{
+    display:none;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.search input{
+    background-color: #7bd48f;
+    padding:5px 15px;
+    width:80%;
+    border:0;
+    border-radius : 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size:2em;
+
+}
+
+.search button{
+    margin-top:20px;
+    border:0;
+    border-radius:3px;
+    padding:7.5px 30px;
+    background-color: #EDDEA4 ;
+    cursor: pointer;
+    font-family: 'Inconsolata', monospace;
+    font-size:1.5em;
+    color:#1D263B;
+    font-weight: 400;
+
+}
+
+
+.search button:hover{
+    background-color: #fad74a ;
+    transition: background-color 400ms;
+
+}
+
+#result > h1,h2{
+    font-size:2em;
+}
+#result{
+    width:80%;
+    padding-bottom:30px;
+}
+
+#cityName{
+    text-align: center;
+}
+#feel, #temp, #hum{
+    margin:0;
+}
+
+.sky {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+
+
