@@ -21,7 +21,7 @@ function message(s)
 let weather= {
     "apiKey" : "a6deab420e4f7392f253478a1ee1f189",
     fetchWeather: function(city){
-        if(isNaN(city))
+        if(isNaN(city) || city=="")
         {
             fetch("https://api.openweathermap.org/data/2.5/weather?q="+
             city+
