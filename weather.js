@@ -15,10 +15,10 @@ function message(s)
     document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?clouds')";
 
     //remove any data and show the message
-    let msg = document.getElementById("msg");
     let res= document.getElementById("result");
     res.classList.add("disappear");
-
+    
+    let msg = document.getElementById("msg");
     msg.classList.remove("disappear");
     msg.innerHTML = s;
 }
